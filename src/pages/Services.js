@@ -34,7 +34,7 @@ function Services() {
         // "Crowd Movement Management",
         // "Safety & Compliance & Best Practices"
       ],
-      url: "/services/traffic-event-management"
+      url: "/services/traffic"
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
