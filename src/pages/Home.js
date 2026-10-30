@@ -459,62 +459,51 @@ function Home() {
       </section>
 
       {/* About us  */}
-      <section
-        className="relative py-20 bg-gray-900 text-white overflow-hidden"
-        style={{
-          backgroundImage: "url('/img/about-bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-0"></div>
+     <section
+  className="relative py-20 bg-gray-900 text-white overflow-hidden"
+  style={{
+    backgroundImage: "url('/img/about-bg.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-0"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative h-[660px] flex items-start justify-center rounded-2xl shadow-2xl overflow-hidden">
-            <img
-              src="/img/fihleft.png"
-              alt="About FIH"
-              className="rounded-2xl shadow-2xl w-full h-full object-contain object-top"
-            />
-            <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-600 to-teal-400 opacity-40 blur-lg -z-10"></div>
-          </div>
+  <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-12 flex items-center justify-center">
+    <div className="bg-white/10 backdrop-blur-md p-8 sm:p-10 lg:p-12 rounded-2xl shadow-lg border border-white/20 w-full">
+      <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 leading-snug">
+        Focus Integrated Healthcare (FIH)
+        <br />
+        <span className="text-blue-400 text-lg sm:text-xl lg:text-2xl font-semibold block mt-2">
+          "Seamless Secure Sustainable"
+        </span>
+      </h3>
 
-          <div className="bg-white/10 backdrop-blur-md p-10 lg:p-12 rounded-2xl shadow-lg border border-white/20 max-w-2xl w-full">
+      <p className="text-blue-100 leading-relaxed text-justify mb-5">
+        Focus Integrated Healthcare (FIH) redefines the built environment through a
+        unified and intelligent service model. We simplify complex facility
+        requirements ranging from medical grade hygiene to high-vigilance
+        security by bringing everything together under a single, data-driven
+        management platform.
+      </p>
 
-            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6 leading-snug">
-              Focus Integrated Healthcare (FIH)
-              <br />
-              <span className="text-blue-400 text-xl lg:text-2xl font-semibold block mt-2">
-                "Seamless Secure Sustainable"
-              </span>
-            </h3>
+      <p className="text-blue-100 leading-relaxed text-justify mb-5">
+        Our integrated approach ensures that all essential services work in
+        harmony, eliminating inefficiencies and enhancing overall operational
+        performance. By combining innovation, expertise, and technology, we
+        create environments that are not only safe and compliant but also
+        adaptable to future demands.
+      </p>
 
-            <p className="text-blue-100 leading-relaxed text-justify mb-5">
-              Focus Integrated Healthcare (FIH) redefines the built environment through a
-              unified and intelligent service model. We simplify complex facility
-              requirements ranging from medical grade hygiene to high-vigilance
-              security by bringing everything together under a single, data-driven
-              management platform.
-            </p>
-
-            <p className="text-blue-100 leading-relaxed text-justify mb-5">
-              Our integrated approach ensures that all essential services work in
-              harmony, eliminating inefficiencies and enhancing overall operational
-              performance. By combining innovation, expertise, and technology, we
-              create environments that are not only safe and compliant but also
-              adaptable to future demands.
-            </p>
-
-            <p className="text-blue-100 leading-relaxed text-justify">
-              Through the synchronization of our core pillars, we empower organizations
-              to stay focused on their primary mission while we ensure their
-              infrastructure runs seamlessly, efficiently, and at peak performance at
-              all times.
-            </p>
-
-          </div>
-        </div>
-      </section>
+      <p className="text-blue-100 leading-relaxed text-justify">
+        Through the synchronization of our core pillars, we empower organizations
+        to stay focused on their primary mission while we ensure their
+        infrastructure runs seamlessly, efficiently, and at peak performance at
+        all times.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* SEO Focus Section */}
       <section className="py-20 bg-gray-50">

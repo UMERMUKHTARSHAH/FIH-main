@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
 
             {/* Mobile QR Code - Below the contacts */}
-            <div className="lg:hidden w-full flex flex-col items-center justify-center mt-[-50px] mb-[60px] lg:mb-0">
+            <div className="lg:hidden w-full flex flex-col items-center justify-center mt-[-45px] mb-[60px] lg:mb-0">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <img
                   src='/img/logoGreen.png'
